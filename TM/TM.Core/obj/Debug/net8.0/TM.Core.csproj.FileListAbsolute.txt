@@ -1,0 +1,14 @@
+C:\Users\semsipahi\source\repos\TM\TM.Core\bin\Debug\net8.0\TM.Core.deps.json
+C:\Users\semsipahi\source\repos\TM\TM.Core\bin\Debug\net8.0\TM.Core.runtimeconfig.json
+C:\Users\semsipahi\source\repos\TM\TM.Core\bin\Debug\net8.0\TM.Core.dll
+C:\Users\semsipahi\source\repos\TM\TM.Core\bin\Debug\net8.0\TM.Core.pdb
+C:\Users\semsipahi\source\repos\TM\TM.Core\obj\Debug\net8.0\TM.Core.csproj.AssemblyReference.cache
+C:\Users\semsipahi\source\repos\TM\TM.Core\obj\Debug\net8.0\TM.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\semsipahi\source\repos\TM\TM.Core\obj\Debug\net8.0\TM.Core.AssemblyInfoInputs.cache
+C:\Users\semsipahi\source\repos\TM\TM.Core\obj\Debug\net8.0\TM.Core.AssemblyInfo.cs
+C:\Users\semsipahi\source\repos\TM\TM.Core\obj\Debug\net8.0\TM.Core.csproj.CoreCompileInputs.cache
+C:\Users\semsipahi\source\repos\TM\TM.Core\obj\Debug\net8.0\TM.Core.dll
+C:\Users\semsipahi\source\repos\TM\TM.Core\obj\Debug\net8.0\refint\TM.Core.dll
+C:\Users\semsipahi\source\repos\TM\TM.Core\obj\Debug\net8.0\TM.Core.pdb
+C:\Users\semsipahi\source\repos\TM\TM.Core\obj\Debug\net8.0\TM.Core.genruntimeconfig.cache
+C:\Users\semsipahi\source\repos\TM\TM.Core\obj\Debug\net8.0\ref\TM.Core.dll
