@@ -22,24 +22,18 @@ namespace TM.API.Controllers
 
             var todos = await unitOfWork.TodoRepository.GetAll();
 
-            foreach (var item in todos)
+            var pure = todos.Select(x => new TodoDto()
             {
-                var user = await unitOfWork.UserRepository.GetById(item.FKUserId);
+                Title = x.Title,
+                Detail = x.Detail,
+                PKTodoId = x.PKTodoId,
+                Status = (int)x.Status,
+                Priority = (int)x.Priority,
+                DisplayStatus = Enum.GetName(typeof(TodoStatus), x.Status),
+                DisplayPriority = Enum.GetName(typeof(TodoPriority), x.Priority),
+            });
 
-                result.Add(new TodoDto()
-                {
-                    PKTodoId = item.PKTodoId,
-                    Title = item.Title,
-                    Detail = item.Detail,
-                    Status = (int)item.Status,
-                    Priority = (int)item.Priority,
-                    UserEmail = user.EMail,
-                    DisplayStatus = Enum.GetName(typeof(TodoStatus), item.Status),
-                    DisplayPriority = Enum.GetName(typeof(TodoPriority), item.Priority)
-                });
-            }
-
-            return Ok(result);
+            return Ok(pure);
         }
 
         [HttpGet("{id}")]
