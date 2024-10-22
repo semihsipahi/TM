@@ -3,9 +3,9 @@ using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using TM.Core.DTO;
 using TM.Core.Entity;
 using TM.Imp.Concrete;
+using TM.Imp.DTO;
 
 namespace TM.API.Controllers
 {
@@ -29,11 +29,12 @@ namespace TM.API.Controllers
 
             return Ok(new
             {
-                Token = token
+                Token = token,
+                User = user,
             });
         }
 
-        public static string CreateAndGetToken(User user)
+        static string CreateAndGetToken(User user)
         {
             var tokenHandler = new JwtSecurityTokenHandler();
             var key = Encoding.ASCII.GetBytes("m6D4n9Y3r7bX0P2ZfL1uJ8QwJ5kV7yA3zR6X0Z2B9M8F4A5G7J1W3L0R9N8P2S");

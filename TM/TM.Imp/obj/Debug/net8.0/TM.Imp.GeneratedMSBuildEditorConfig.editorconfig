@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TM.Imp
-build_property.ProjectDir = C:\Users\semsipahi\source\repos\TM\TM.Imp\
+build_property.ProjectDir = C:\Users\semsipahi\Documents\github\TM\TM.Imp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

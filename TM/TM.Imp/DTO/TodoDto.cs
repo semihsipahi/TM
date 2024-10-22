@@ -1,4 +1,4 @@
-﻿namespace TM.Core.DTO
+﻿namespace TM.Imp.DTO
 {
     public class TodoDto
     {
@@ -12,5 +12,6 @@
         public string? DisplayPriority { get; set; }
         public string? DisplayStatus { get; set; }
         public int StoryPoint { get; set; }
+        public bool EditMode { get; set; } // For UI.
     }
 }

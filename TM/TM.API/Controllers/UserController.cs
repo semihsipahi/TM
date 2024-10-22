@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using TM.Core.DTO;
 using TM.Core.Entity;
 using TM.Imp.Concrete;
+using TM.Imp.DTO;
 
 namespace TM.API.Controllers
 {
@@ -14,20 +14,15 @@ namespace TM.API.Controllers
         [HttpGet]
         public async Task<IActionResult> GetUsers()
         {
-            var result = new List<UserDto>();
-
             var users = await unitOfWork.UserRepository.GetAll();
 
-            foreach (var item in users)
+            var mapped = users.Select(x => new UserDto()
             {
-                result.Add(new UserDto()
-                {
-                    Email = item.EMail,
-                    PKUserId = item.PKUserId,
-                });
-            }
+                Email = x.EMail,
+                PKUserId = x.PKUserId,
+            });
 
-            return Ok(result);
+            return Ok(mapped);
         }
 
         [HttpPost]
@@ -45,6 +40,15 @@ namespace TM.API.Controllers
             unitOfWork.Complete();
 
             return Ok(user);
+        }
+
+        [HttpGet]
+        [Route("{id}/Todos")]
+        public async Task<IActionResult> GetTodosByUserId(int id)
+        {
+            var result = await unitOfWork.UserRepository.GetTodosByUserId(id);
+
+            return Ok(result);
         }
     }
 }

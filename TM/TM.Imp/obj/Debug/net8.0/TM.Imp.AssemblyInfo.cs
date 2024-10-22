@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TM.Imp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6cd1c1982f2c873ae65af28ef781197f8e35f894")]
 [assembly: System.Reflection.AssemblyProductAttribute("TM.Imp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TM.Imp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using System;
-using TM.Core.DTO;
+using TM.API.Helper;
+using TM.Imp.DTO;
 using TM.Core.Entity;
 using TM.Core.Enum;
 using TM.Imp.Concrete;
@@ -18,11 +18,9 @@ namespace TM.API.Controllers
         [HttpGet]
         public async Task<IActionResult> Gets()
         {
-            var result = new List<TodoDto>();
-
             var todos = await unitOfWork.TodoRepository.GetAll();
 
-            var pure = todos.Select(x => new TodoDto()
+            var mapped = todos.Select(x => new TodoDto()
             {
                 Title = x.Title,
                 Detail = x.Detail,
@@ -31,9 +29,10 @@ namespace TM.API.Controllers
                 Priority = (int)x.Priority,
                 DisplayStatus = Enum.GetName(typeof(TodoStatus), x.Status),
                 DisplayPriority = Enum.GetName(typeof(TodoPriority), x.Priority),
+                UserEmail = unitOfWork.UserRepository.GetById(x.FKUserId).Result.EMail,
             });
 
-            return Ok(pure);
+            return Ok(mapped);
         }
 
         [HttpGet("{id}")]
@@ -113,6 +112,20 @@ namespace TM.API.Controllers
             unitOfWork.Complete();
 
             return Ok();
+        }
+
+        [HttpGet]
+        [Route("status/key-values")]
+        public IActionResult GetStatus()
+        {
+            return Ok(EnumExtension.GetValues<TodoStatus>());
+        }
+
+        [HttpGet]
+        [Route("priority/key-values")]
+        public IActionResult GetPriority()
+        {
+            return Ok(EnumExtension.GetValues<TodoPriority>());
         }
     }
 }

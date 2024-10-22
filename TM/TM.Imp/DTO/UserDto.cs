@@ -1,4 +1,4 @@
-﻿namespace TM.Core.DTO
+﻿namespace TM.Imp.DTO
 {
     public class UserDto
     {

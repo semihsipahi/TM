@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\semsipahi\\source\\repos\\TM\\TM.Imp\\TM.Imp.csproj": {}
+    "C:\\Users\\semsipahi\\Documents\\github\\TM\\TM.Imp\\TM.Imp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\semsipahi\\source\\repos\\TM\\TM.Core\\TM.Core.csproj": {
+    "C:\\Users\\semsipahi\\Documents\\github\\TM\\TM.Core\\TM.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\semsipahi\\source\\repos\\TM\\TM.Core\\TM.Core.csproj",
+        "projectUniqueName": "C:\\Users\\semsipahi\\Documents\\github\\TM\\TM.Core\\TM.Core.csproj",
         "projectName": "TM.Core",
-        "projectPath": "C:\\Users\\semsipahi\\source\\repos\\TM\\TM.Core\\TM.Core.csproj",
+        "projectPath": "C:\\Users\\semsipahi\\Documents\\github\\TM\\TM.Core\\TM.Core.csproj",
         "packagesPath": "C:\\Users\\semsipahi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\semsipahi\\source\\repos\\TM\\TM.Core\\obj\\",
+        "outputPath": "C:\\Users\\semsipahi\\Documents\\github\\TM\\TM.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\semsipahi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,14 +89,14 @@
         }
       }
     },
-    "C:\\Users\\semsipahi\\source\\repos\\TM\\TM.Imp\\TM.Imp.csproj": {
+    "C:\\Users\\semsipahi\\Documents\\github\\TM\\TM.Imp\\TM.Imp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\semsipahi\\source\\repos\\TM\\TM.Imp\\TM.Imp.csproj",
+        "projectUniqueName": "C:\\Users\\semsipahi\\Documents\\github\\TM\\TM.Imp\\TM.Imp.csproj",
         "projectName": "TM.Imp",
-        "projectPath": "C:\\Users\\semsipahi\\source\\repos\\TM\\TM.Imp\\TM.Imp.csproj",
+        "projectPath": "C:\\Users\\semsipahi\\Documents\\github\\TM\\TM.Imp\\TM.Imp.csproj",
         "packagesPath": "C:\\Users\\semsipahi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\semsipahi\\source\\repos\\TM\\TM.Imp\\obj\\",
+        "outputPath": "C:\\Users\\semsipahi\\Documents\\github\\TM\\TM.Imp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\semsipahi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -114,8 +114,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\semsipahi\\source\\repos\\TM\\TM.Core\\TM.Core.csproj": {
-                "projectPath": "C:\\Users\\semsipahi\\source\\repos\\TM\\TM.Core\\TM.Core.csproj"
+              "C:\\Users\\semsipahi\\Documents\\github\\TM\\TM.Core\\TM.Core.csproj": {
+                "projectPath": "C:\\Users\\semsipahi\\Documents\\github\\TM\\TM.Core\\TM.Core.csproj"
               }
             }
           }

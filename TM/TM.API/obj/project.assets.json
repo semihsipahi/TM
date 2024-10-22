@@ -3517,11 +3517,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\semsipahi\\source\\repos\\TM\\TM.API\\TM.API.csproj",
+      "projectUniqueName": "C:\\Users\\semsipahi\\Documents\\github\\TM\\TM.API\\TM.API.csproj",
       "projectName": "TM.API",
-      "projectPath": "C:\\Users\\semsipahi\\source\\repos\\TM\\TM.API\\TM.API.csproj",
+      "projectPath": "C:\\Users\\semsipahi\\Documents\\github\\TM\\TM.API\\TM.API.csproj",
       "packagesPath": "C:\\Users\\semsipahi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\semsipahi\\source\\repos\\TM\\TM.API\\obj\\",
+      "outputPath": "C:\\Users\\semsipahi\\Documents\\github\\TM\\TM.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\semsipahi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3539,11 +3539,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\semsipahi\\source\\repos\\TM\\TM.Core\\TM.Core.csproj": {
-              "projectPath": "C:\\Users\\semsipahi\\source\\repos\\TM\\TM.Core\\TM.Core.csproj"
+            "C:\\Users\\semsipahi\\Documents\\github\\TM\\TM.Core\\TM.Core.csproj": {
+              "projectPath": "C:\\Users\\semsipahi\\Documents\\github\\TM\\TM.Core\\TM.Core.csproj"
             },
-            "C:\\Users\\semsipahi\\source\\repos\\TM\\TM.Imp\\TM.Imp.csproj": {
-              "projectPath": "C:\\Users\\semsipahi\\source\\repos\\TM\\TM.Imp\\TM.Imp.csproj"
+            "C:\\Users\\semsipahi\\Documents\\github\\TM\\TM.Imp\\TM.Imp.csproj": {
+              "projectPath": "C:\\Users\\semsipahi\\Documents\\github\\TM\\TM.Imp\\TM.Imp.csproj"
             }
           }
         }

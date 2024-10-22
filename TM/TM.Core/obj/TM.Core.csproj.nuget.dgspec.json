@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\semsipahi\\source\\repos\\TM\\TM.Core\\TM.Core.csproj": {}
+    "C:\\Users\\semsipahi\\Documents\\github\\TM\\TM.Core\\TM.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\semsipahi\\source\\repos\\TM\\TM.Core\\TM.Core.csproj": {
+    "C:\\Users\\semsipahi\\Documents\\github\\TM\\TM.Core\\TM.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\semsipahi\\source\\repos\\TM\\TM.Core\\TM.Core.csproj",
+        "projectUniqueName": "C:\\Users\\semsipahi\\Documents\\github\\TM\\TM.Core\\TM.Core.csproj",
         "projectName": "TM.Core",
-        "projectPath": "C:\\Users\\semsipahi\\source\\repos\\TM\\TM.Core\\TM.Core.csproj",
+        "projectPath": "C:\\Users\\semsipahi\\Documents\\github\\TM\\TM.Core\\TM.Core.csproj",
         "packagesPath": "C:\\Users\\semsipahi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\semsipahi\\source\\repos\\TM\\TM.Core\\obj\\",
+        "outputPath": "C:\\Users\\semsipahi\\Documents\\github\\TM\\TM.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\semsipahi\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -95,6 +95,26 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "TM.API.Controllers.TodoController",
+    "Method": "GetPriority",
+    "RelativePath": "api/Todo/priority/key-values",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TM.API.Controllers.TodoController",
+    "Method": "GetStatus",
+    "RelativePath": "api/Todo/status/key-values",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "TM.API.Controllers.UserController",
     "Method": "GetUsers",
     "RelativePath": "api/User",
@@ -115,6 +135,22 @@
       {
         "Name": "request",
         "Type": "TM.Core.DTO.UserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TM.API.Controllers.UserController",
+    "Method": "GetTodosByUserId",
+    "RelativePath": "api/User/{id}/Todos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
