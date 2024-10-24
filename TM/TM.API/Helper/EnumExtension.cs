@@ -1,6 +1,6 @@
 ﻿namespace TM.API.Helper
 {
-    public class EnumValue
+    public struct EnumValue
     {
         public string Name { get; set; }
         public int Value { get; set; }
